@@ -1,4 +1,4 @@
-namespace DotSharp.Day01_Basics;
+namespace DotSharp.Day01;
 
 public static class ConditionsDemo
 {
