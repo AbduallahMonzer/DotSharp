@@ -19,7 +19,7 @@ class MethodsDemo
 	{
 		num = num + 3;
 		name = "monzer";
-	}	
+	}
 
 	public static void ShowMethods(ref int num, string name, double bars) => Console.WriteLine($"i'm {name} and {num} i love {bars} bars");
 }

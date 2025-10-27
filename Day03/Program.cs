@@ -24,5 +24,8 @@ public class Program
         Console.WriteLine("The body expression method");
         MethodsDemo.ShowMethods(ref num, name, bars);
 
+        Console.WriteLine("========Constructors========");
+        Date d1 = new Date(01,01,2000);
+        Console.WriteLine(d1.GetDate());
 	}
 }
