@@ -2,7 +2,7 @@
 using DotSharp.Day04;
 namespace Day04;
 
-public class Program
+class Program
 {
 	public static void Main()
 	{
@@ -19,11 +19,17 @@ public class Program
 		IpAddr ip = new IpAddr(192, 168, 1, 1);
 		Console.WriteLine("Original IP: " + ip);
 		Console.WriteLine("First Octet: " + ip[0]);
-        Console.WriteLine("Second Octet: " + ip[1]);
+		Console.WriteLine("Second Octet: " + ip[1]);
 
-        // Changing the last octet
-        ip[3] = 100;
+		// Changing the last octet
+		ip[3] = 100;
 
-        Console.WriteLine("Updated IP: " + ip);
+		Console.WriteLine("Updated IP: " + ip);
+		Console.WriteLine("=====Without Delegate=====");
+		Console.WriteLine(Delegateee.ProcessNumber(2));
+		Console.WriteLine("=====With Delegate");
+		Console.WriteLine(Delegateee.ProcessNumber2(5, Delegateee.Add));
+		Console.WriteLine(Delegateee.ProcessNumber2(5, Delegateee.Multiply));
+
 	}
 }
