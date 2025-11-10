@@ -8,5 +8,7 @@ public class Program
 	{
 		Console.WriteLine("======Even Or Odd");
 		Problems.CheckEvenOdd();
+		Console.WriteLine("======Max Of Three");
+		Problems.MaxOfThree();
 	}
 }
