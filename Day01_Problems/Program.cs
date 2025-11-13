@@ -15,5 +15,7 @@ public class Program
 		Console.WriteLine("=========Problems Level 2 =========");
 		Problems02.multiplicationTable();
 		Problems02.SummmN();
+		Console.WriteLine("===== Simple Calculator=====");
+		Project1.SimpleCalc();
 	}
 }
