@@ -5,3 +5,5 @@ obj/
 # Any lingering generated assembly files (defense in depth)
 **/*AssemblyInfo*.cs
 **/*AssemblyInfoInputs.cache
+
+*roadmap.txt

@@ -5,7 +5,7 @@ class Problem1
 {
 	public static void Converter()
 	{
-		Console.WriteLine("Enter any number: ");
+		Console.WriteLine("Enter any number (decimal): ");
 		double num = Convert.ToDouble(Console.ReadLine());
 
 		double rounded = Math.Round(num);
@@ -23,5 +23,21 @@ class Problem1
 		int c = int.Parse(Console.ReadLine());
 		int smallest = (a < b) ? (( a < c) ? a:c):(( b < c)? b:c);
 		Console.WriteLine($"\nThe smallest number is: {smallest}");
+	}
+	public static void StarPyr()
+	{
+		int height = 5;
+		for ( int i = 1; i<= height; i++ )
+		{
+			for ( int s = 1; s<= height - i; s++)
+			{
+				Console.Write(" ");
+			}
+			for ( int star = 1; star <= (2 * i - 1 ); star++)
+			{
+				Console.Write("*");
+			}
+			Console.WriteLine();
+		}
 	}
 }

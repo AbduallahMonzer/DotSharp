@@ -9,5 +9,11 @@ public class Program
 		Problem1.Converter();
 		Console.WriteLine("======Ternary Expression======");
 		Problem1.TernEXp();
+		Console.WriteLine("=====Centered Pyramid=====");
+		Problem1.StarPyr();
+		Console.WriteLine("========Mini Project=======");
+		MiniProject.StudentGrade();
+		Console.WriteLine("========Login system=======");
+		MiniProject2.Login();
 	}
 }
