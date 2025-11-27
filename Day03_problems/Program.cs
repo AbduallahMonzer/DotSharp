@@ -29,6 +29,5 @@ class Program
 		Console.WriteLine($"Before SwapRef (REFERENCE): x={x}, y={y}");
 		Problem1.Swap(ref x, ref y);
 		Console.WriteLine($"After SwapRef (REFERENCE): x={x}, y={y}");  // values WILL change
-		MiniProject.start();
 	}
 }
