@@ -9,8 +9,5 @@ public class Employee
 	public double wage;
 	public double LoggedHour;
 }
-		
-		
-		
 		// Fields  -> <Access Modifier>  <Data type>  <Field Name>  = <Initial value>;
 		// Access Modifier: public, private, protected
