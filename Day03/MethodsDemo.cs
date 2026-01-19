@@ -2,7 +2,7 @@ using System;
 
 namespace DotSharp.Day03;
 
-class MethodsDemo
+public class MethodsDemo
 {
 	public static void ShowMethods(int age)
 	{
